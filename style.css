@@ -138,7 +138,7 @@ nav a:hover::after{
     width: 100%;
 }
 .navbar_border{
-    border-left: 2px solid rgba(36, 33, 33, 0.823);
+    border-left: 2px solid rgba(36, 33, 33, 0.392);
     
 }
 
@@ -280,7 +280,7 @@ nav a:hover::after{
     padding: 2rem 1rem;
 }
 .service-inner-content h2{
-    color: var(--heading-color);
+    color: brown;
     margin: 1rem 0;
     font-size: 2rem;
     font-weight: 300;
@@ -558,7 +558,7 @@ nav a:hover::after{
     text-align: center;
     padding: 25px 0;
     background: var(--navbar-color);
-    color: #efbb20;
+    color: rgba(255, 255, 255, 0.468);
     font-size: 16px;
     font-weight: 500;
     margin-top: 20px;
@@ -690,8 +690,23 @@ nav .fas{
         transition: 1s;
         margin: 0.5rem;
     } */
-    
-}
+    .copyright{
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+        background: var(--navbar-color);
+        color: rgba(255, 255, 255, 0.468);
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .service-inner-content p{
+        color: rgb(0, 0, 0);
+        margin: 1rem 0;
+        font-size: 1.5rem;
+        font-weight: 200;
+        line-height: 1.7em;
+}}
 @media only screen and (min-width: 820px) and (max-width: 1280px) {
     .organogram{
         color: rgba(29, 12, 12, 0.867);
